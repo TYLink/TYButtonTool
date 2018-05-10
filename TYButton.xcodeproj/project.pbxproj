@@ -1,0 +1,596 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		55B7465A20A3DCF900F147B0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 55B7465920A3DCF900F147B0 /* AppDelegate.m */; };
+		55B7465D20A3DCF900F147B0 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 55B7465C20A3DCF900F147B0 /* ViewController.m */; };
+		55B7466020A3DCF900F147B0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 55B7465E20A3DCF900F147B0 /* Main.storyboard */; };
+		55B7466220A3DCFA00F147B0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 55B7466120A3DCFA00F147B0 /* Assets.xcassets */; };
+		55B7466520A3DCFA00F147B0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 55B7466320A3DCFA00F147B0 /* LaunchScreen.storyboard */; };
+		55B7466820A3DCFA00F147B0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 55B7466720A3DCFA00F147B0 /* main.m */; };
+		55B7467220A3DCFA00F147B0 /* TYButtonTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 55B7467120A3DCFA00F147B0 /* TYButtonTests.m */; };
+		55B7467D20A3DCFA00F147B0 /* TYButtonUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 55B7467C20A3DCFA00F147B0 /* TYButtonUITests.m */; };
+		55B7469120A3DE3300F147B0 /* UIButton+TitleImageStyle.m in Sources */ = {isa = PBXBuildFile; fileRef = 55B7469020A3DE3300F147B0 /* UIButton+TitleImageStyle.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		55B7466E20A3DCFA00F147B0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 55B7464D20A3DCF900F147B0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 55B7465420A3DCF900F147B0;
+			remoteInfo = TYButton;
+		};
+		55B7467920A3DCFA00F147B0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 55B7464D20A3DCF900F147B0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 55B7465420A3DCF900F147B0;
+			remoteInfo = TYButton;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		55B7465520A3DCF900F147B0 /* TYButton.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TYButton.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		55B7465820A3DCF900F147B0 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		55B7465920A3DCF900F147B0 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		55B7465B20A3DCF900F147B0 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		55B7465C20A3DCF900F147B0 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		55B7465F20A3DCF900F147B0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		55B7466120A3DCFA00F147B0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		55B7466420A3DCFA00F147B0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		55B7466620A3DCFA00F147B0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		55B7466720A3DCFA00F147B0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		55B7466D20A3DCFA00F147B0 /* TYButtonTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TYButtonTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		55B7467120A3DCFA00F147B0 /* TYButtonTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TYButtonTests.m; sourceTree = "<group>"; };
+		55B7467320A3DCFA00F147B0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		55B7467820A3DCFA00F147B0 /* TYButtonUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TYButtonUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		55B7467C20A3DCFA00F147B0 /* TYButtonUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TYButtonUITests.m; sourceTree = "<group>"; };
+		55B7467E20A3DCFA00F147B0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		55B7468F20A3DE3300F147B0 /* UIButton+TitleImageStyle.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIButton+TitleImageStyle.h"; sourceTree = "<group>"; };
+		55B7469020A3DE3300F147B0 /* UIButton+TitleImageStyle.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIButton+TitleImageStyle.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		55B7465220A3DCF900F147B0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		55B7466A20A3DCFA00F147B0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		55B7467520A3DCFA00F147B0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		55B7464C20A3DCF900F147B0 = {
+			isa = PBXGroup;
+			children = (
+				55B7468B20A3DD1100F147B0 /* TYButtonCategory */,
+				55B7465720A3DCF900F147B0 /* TYButton */,
+				55B7467020A3DCFA00F147B0 /* TYButtonTests */,
+				55B7467B20A3DCFA00F147B0 /* TYButtonUITests */,
+				55B7465620A3DCF900F147B0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		55B7465620A3DCF900F147B0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				55B7465520A3DCF900F147B0 /* TYButton.app */,
+				55B7466D20A3DCFA00F147B0 /* TYButtonTests.xctest */,
+				55B7467820A3DCFA00F147B0 /* TYButtonUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		55B7465720A3DCF900F147B0 /* TYButton */ = {
+			isa = PBXGroup;
+			children = (
+				55B7465820A3DCF900F147B0 /* AppDelegate.h */,
+				55B7465920A3DCF900F147B0 /* AppDelegate.m */,
+				55B7465B20A3DCF900F147B0 /* ViewController.h */,
+				55B7465C20A3DCF900F147B0 /* ViewController.m */,
+				55B7465E20A3DCF900F147B0 /* Main.storyboard */,
+				55B7466120A3DCFA00F147B0 /* Assets.xcassets */,
+				55B7466320A3DCFA00F147B0 /* LaunchScreen.storyboard */,
+				55B7466620A3DCFA00F147B0 /* Info.plist */,
+				55B7466720A3DCFA00F147B0 /* main.m */,
+			);
+			path = TYButton;
+			sourceTree = "<group>";
+		};
+		55B7467020A3DCFA00F147B0 /* TYButtonTests */ = {
+			isa = PBXGroup;
+			children = (
+				55B7467120A3DCFA00F147B0 /* TYButtonTests.m */,
+				55B7467320A3DCFA00F147B0 /* Info.plist */,
+			);
+			path = TYButtonTests;
+			sourceTree = "<group>";
+		};
+		55B7467B20A3DCFA00F147B0 /* TYButtonUITests */ = {
+			isa = PBXGroup;
+			children = (
+				55B7467C20A3DCFA00F147B0 /* TYButtonUITests.m */,
+				55B7467E20A3DCFA00F147B0 /* Info.plist */,
+			);
+			path = TYButtonUITests;
+			sourceTree = "<group>";
+		};
+		55B7468B20A3DD1100F147B0 /* TYButtonCategory */ = {
+			isa = PBXGroup;
+			children = (
+				55B7468F20A3DE3300F147B0 /* UIButton+TitleImageStyle.h */,
+				55B7469020A3DE3300F147B0 /* UIButton+TitleImageStyle.m */,
+			);
+			path = TYButtonCategory;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		55B7465420A3DCF900F147B0 /* TYButton */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 55B7468120A3DCFA00F147B0 /* Build configuration list for PBXNativeTarget "TYButton" */;
+			buildPhases = (
+				55B7465120A3DCF900F147B0 /* Sources */,
+				55B7465220A3DCF900F147B0 /* Frameworks */,
+				55B7465320A3DCF900F147B0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TYButton;
+			productName = TYButton;
+			productReference = 55B7465520A3DCF900F147B0 /* TYButton.app */;
+			productType = "com.apple.product-type.application";
+		};
+		55B7466C20A3DCFA00F147B0 /* TYButtonTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 55B7468420A3DCFA00F147B0 /* Build configuration list for PBXNativeTarget "TYButtonTests" */;
+			buildPhases = (
+				55B7466920A3DCFA00F147B0 /* Sources */,
+				55B7466A20A3DCFA00F147B0 /* Frameworks */,
+				55B7466B20A3DCFA00F147B0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				55B7466F20A3DCFA00F147B0 /* PBXTargetDependency */,
+			);
+			name = TYButtonTests;
+			productName = TYButtonTests;
+			productReference = 55B7466D20A3DCFA00F147B0 /* TYButtonTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		55B7467720A3DCFA00F147B0 /* TYButtonUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 55B7468720A3DCFA00F147B0 /* Build configuration list for PBXNativeTarget "TYButtonUITests" */;
+			buildPhases = (
+				55B7467420A3DCFA00F147B0 /* Sources */,
+				55B7467520A3DCFA00F147B0 /* Frameworks */,
+				55B7467620A3DCFA00F147B0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				55B7467A20A3DCFA00F147B0 /* PBXTargetDependency */,
+			);
+			name = TYButtonUITests;
+			productName = TYButtonUITests;
+			productReference = 55B7467820A3DCFA00F147B0 /* TYButtonUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		55B7464D20A3DCF900F147B0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = Link_TianYang;
+				TargetAttributes = {
+					55B7465420A3DCF900F147B0 = {
+						CreatedOnToolsVersion = 9.3;
+					};
+					55B7466C20A3DCFA00F147B0 = {
+						CreatedOnToolsVersion = 9.3;
+						TestTargetID = 55B7465420A3DCF900F147B0;
+					};
+					55B7467720A3DCFA00F147B0 = {
+						CreatedOnToolsVersion = 9.3;
+						TestTargetID = 55B7465420A3DCF900F147B0;
+					};
+				};
+			};
+			buildConfigurationList = 55B7465020A3DCF900F147B0 /* Build configuration list for PBXProject "TYButton" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 55B7464C20A3DCF900F147B0;
+			productRefGroup = 55B7465620A3DCF900F147B0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				55B7465420A3DCF900F147B0 /* TYButton */,
+				55B7466C20A3DCFA00F147B0 /* TYButtonTests */,
+				55B7467720A3DCFA00F147B0 /* TYButtonUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		55B7465320A3DCF900F147B0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				55B7466520A3DCFA00F147B0 /* LaunchScreen.storyboard in Resources */,
+				55B7466220A3DCFA00F147B0 /* Assets.xcassets in Resources */,
+				55B7466020A3DCF900F147B0 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		55B7466B20A3DCFA00F147B0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		55B7467620A3DCFA00F147B0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		55B7465120A3DCF900F147B0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				55B7469120A3DE3300F147B0 /* UIButton+TitleImageStyle.m in Sources */,
+				55B7465D20A3DCF900F147B0 /* ViewController.m in Sources */,
+				55B7466820A3DCFA00F147B0 /* main.m in Sources */,
+				55B7465A20A3DCF900F147B0 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		55B7466920A3DCFA00F147B0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				55B7467220A3DCFA00F147B0 /* TYButtonTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		55B7467420A3DCFA00F147B0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				55B7467D20A3DCFA00F147B0 /* TYButtonUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		55B7466F20A3DCFA00F147B0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 55B7465420A3DCF900F147B0 /* TYButton */;
+			targetProxy = 55B7466E20A3DCFA00F147B0 /* PBXContainerItemProxy */;
+		};
+		55B7467A20A3DCFA00F147B0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 55B7465420A3DCF900F147B0 /* TYButton */;
+			targetProxy = 55B7467920A3DCFA00F147B0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		55B7465E20A3DCF900F147B0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				55B7465F20A3DCF900F147B0 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		55B7466320A3DCFA00F147B0 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				55B7466420A3DCFA00F147B0 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		55B7467F20A3DCFA00F147B0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		55B7468020A3DCFA00F147B0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		55B7468220A3DCFA00F147B0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 58WG392FFH;
+				INFOPLIST_FILE = TYButton/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "YS-Health.TYButton";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		55B7468320A3DCFA00F147B0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 58WG392FFH;
+				INFOPLIST_FILE = TYButton/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "YS-Health.TYButton";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		55B7468520A3DCFA00F147B0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 58WG392FFH;
+				INFOPLIST_FILE = TYButtonTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "YS-Health.TYButtonTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TYButton.app/TYButton";
+			};
+			name = Debug;
+		};
+		55B7468620A3DCFA00F147B0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 58WG392FFH;
+				INFOPLIST_FILE = TYButtonTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "YS-Health.TYButtonTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TYButton.app/TYButton";
+			};
+			name = Release;
+		};
+		55B7468820A3DCFA00F147B0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 58WG392FFH;
+				INFOPLIST_FILE = TYButtonUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "YS-Health.TYButtonUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TYButton;
+			};
+			name = Debug;
+		};
+		55B7468920A3DCFA00F147B0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 58WG392FFH;
+				INFOPLIST_FILE = TYButtonUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "YS-Health.TYButtonUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TYButton;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		55B7465020A3DCF900F147B0 /* Build configuration list for PBXProject "TYButton" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				55B7467F20A3DCFA00F147B0 /* Debug */,
+				55B7468020A3DCFA00F147B0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		55B7468120A3DCFA00F147B0 /* Build configuration list for PBXNativeTarget "TYButton" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				55B7468220A3DCFA00F147B0 /* Debug */,
+				55B7468320A3DCFA00F147B0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		55B7468420A3DCFA00F147B0 /* Build configuration list for PBXNativeTarget "TYButtonTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				55B7468520A3DCFA00F147B0 /* Debug */,
+				55B7468620A3DCFA00F147B0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		55B7468720A3DCFA00F147B0 /* Build configuration list for PBXNativeTarget "TYButtonUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				55B7468820A3DCFA00F147B0 /* Debug */,
+				55B7468920A3DCFA00F147B0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 55B7464D20A3DCF900F147B0 /* Project object */;
+}
